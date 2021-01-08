@@ -1,0 +1,14 @@
+Source: pylint-twisted
+Section: python
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-setuptools, python3-astroid
+Standards-Version: 4.1.3
+Homepage: https://github.com/jonnyyu/pylint-twisted
+
+Package: python3-pylint-twisted
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: pylint plugin for twisted (Python 3)
+ pylint-twisted is Pylint plugin for improving code analysis when editing code
+  using Twisted. Inspired by pylint-django.

@@ -1,0 +1,5 @@
+pylint-twisted (0.1+git20190610-0pexip1) pexip; urgency=medium
+
+  * Initial release
+
+ -- Huw Jones <huw@pexip.com>  Fri, 08 Jan 2021 17:31:38 +0000
