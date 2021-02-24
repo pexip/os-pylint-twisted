@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: pylint-twisted
-Source: https://github.com/jonnyyu/pylint-twisted
+Source: https://github.com/pexip/pylint-twisted
 
 Files: *
-Copyright: 2019 Jonny Yu <yingshen.yu@gmail.com>
+Copyright: 2021 Pexip AS <packaging@pexip.com>
 License: GPL-2
 
 Files: debian/*
