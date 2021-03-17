@@ -2,7 +2,7 @@ Source: pylint-twisted
 Section: python
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
-Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-setuptools, python3-astroid, python3-twisted
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-setuptools, python3-astroid, python3-twisted, pylint3
 Standards-Version: 4.1.3
 Homepage: https://github.com/pexip/pylint-twisted
 
