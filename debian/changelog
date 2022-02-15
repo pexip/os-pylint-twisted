@@ -1,3 +1,10 @@
+pylint-twisted (0.4.0-0pexip1) pexip; urgency=medium
+
+  * Import new Pexip upstream 0.4.0
+  * Adds warning for `defer.returnValue`
+
+ -- Huw Jones <huw@pexip.com>  Tue, 15 Feb 2022 17:36:52 +0000
+
 pylint-twisted (0.3.2-0pexip1) pexip; urgency=medium
 
   * Import new Pexip upstream 0.3.2 which includes:
