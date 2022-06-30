@@ -1,6 +1,7 @@
 pylint-twisted (0.4.0-0pexip2) pexip-bullseye; urgency=medium
 
   * Rebuild for bullseye.
+  * Fixes for pylint 2.7.2 compatibility.
 
  -- Mark Hymers <mark.hymers@pexip.com>  Thu, 30 Jun 2022 12:17:06 +0100
 
