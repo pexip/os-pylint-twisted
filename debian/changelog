@@ -1,3 +1,9 @@
+pylint-twisted (0.4.0-0pexip2) pexip-bullseye; urgency=medium
+
+  * Rebuild for bullseye.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 30 Jun 2022 12:17:06 +0100
+
 pylint-twisted (0.4.0-0pexip1) pexip; urgency=medium
 
   * Import new Pexip upstream 0.4.0
