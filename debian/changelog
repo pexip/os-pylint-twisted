@@ -1,3 +1,10 @@
+pylint-twisted (0.4.0-0pexip3) pexip-bullseye; urgency=medium
+
+  * Revert pylint 2.7.2 compatibility patch as we have moved to
+    pylint 2.12.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Wed, 31 Aug 2022 16:57:36 +0100
+
 pylint-twisted (0.4.0-0pexip2) pexip-bullseye; urgency=medium
 
   * Rebuild for bullseye.
