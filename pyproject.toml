@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pylint-twisted"
-version = "0.4.0"
+version = "0.5.0"
 license = "GPLv2"
 description = "pylint-twisted is a Pylint plugin to aid Pylint in recognizing and understanding errors caused when using Twisted"
 authors = [
@@ -15,10 +15,10 @@ classifiers = [
     'Intended Audience :: Developers',
     'Topic :: Software Development :: Quality Assurance',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
 ]
 packages = [
     { include = "pylint_twisted"}
@@ -33,12 +33,11 @@ requires = ["setuptools>=40.8.0", "wheel", "toml"]
 build-backend = "setuptools.build_meta"
 
 [tool.poetry.dependencies]
-python = ">=3.6,<4.0"
-importlib-metadata = {version = "^1.0", python = "<3.8"}
-astroid = ">=1.0"
-pylint = ">=1.0"
+python = ">=3.9,<4.0"
+astroid = ">=2.14.2"
+pylint = ">=2.16.2"
 pylint-plugin-utils = ">=0.2.1"
-Twisted = ">=18.9.0"
+Twisted = ">=22.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=1.0"
