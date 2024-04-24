@@ -1,3 +1,9 @@
+pylint-twisted (0.5.2-0+pexip24u1) pexip; urgency=medium
+
+  * inference/deferred: prevent decorators from being dropped
+
+ -- Huw Jones <huw@pexip.com>  Wed, 24 Apr 2024 12:11:58 +0100
+
 pylint-twisted (0.5.1-0+pexip24u1) pexip; urgency=medium
 
   * Fix deferred function arg inference
