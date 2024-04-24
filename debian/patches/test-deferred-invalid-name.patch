@@ -1,0 +1,10 @@
+diff --git a/tests/deferred.py b/tests/deferred.py
+index fdae59e..8c2d058 100644
+--- a/tests/deferred.py
++++ b/tests/deferred.py
+@@ -1,4 +1,4 @@
+-# pylint: disable=missing-docstring
++# pylint: disable=missing-docstring,invalid-name
+ from twisted.internet import reactor, defer
+ 
+ 
